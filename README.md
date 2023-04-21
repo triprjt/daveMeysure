@@ -1,6 +1,6 @@
 # waistMeasurements
 A full stack app to enter your height, weight and age and automatically select your waist measurements.
-
+Here is the frontend repo: [frontend](https://github.com/triprjt/daveMeysureFrontend)
 How to run?
 1. git clone https://github.com/triprjt/daveMeysure.git
 2. create virtual environment:
