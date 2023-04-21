@@ -28,9 +28,14 @@ class MeasurementView(APIView):
         weight = float(request.query_params.get('weight'))
 
         data = Measurement.objects.all()
+        print("Total records in the database:", len(data))
         filtered_data = filter_database(height, age, weight, data)
+        print("Filtered records count:", len(filtered_data))
+
         waist_ranges = [entry.waist for entry in filtered_data]
-        return Response(waist_ranges)
+        print("Received params - Height:", height, "Age:", age, "Weight:", weight)
+        # return Response({"waist_ranges": waist_ranges})
+        return Response( waist_ranges)
 
     def post(self, request, format=None):
         data = request.data
