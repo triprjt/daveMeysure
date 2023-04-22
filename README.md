@@ -19,4 +19,5 @@ Here is the demo [video](https://drive.google.com/file/d/172j7aas2LY1c6q0El6KyHL
 
 Here is the architecture design: 
 
-![daveAISystemDesign drawio](https://user-images.githubusercontent.com/108673979/233774415-9c30fd30-ef12-44f7-a0cc-8890b9f38608.png)
+
+![daveAISystemDesign drawio(1)](https://user-images.githubusercontent.com/108673979/233791831-1b42e70d-dc08-4a82-a4d4-50f335223c5c.png)
